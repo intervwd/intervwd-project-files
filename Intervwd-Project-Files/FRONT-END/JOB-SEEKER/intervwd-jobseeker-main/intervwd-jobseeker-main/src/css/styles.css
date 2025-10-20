@@ -1,0 +1,207 @@
+.app-font-style {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.app-bar-avatar {
+  background: linear-gradient(135deg, #4285f4, #6a1b9a) !important;
+}
+
+.font-size-one {
+  font-size: 22px !important;
+}
+
+.font-size-two {
+  font-size: 15px !important;
+}
+.font-size-three {
+  font-size: 13px !important;
+}
+
+.font-size-four {
+  font-size: 17px !important;
+}
+
+.font-weight-one {
+  font-weight: 600;
+}
+
+.font-weight-two {
+  font-weight: 500;
+}
+
+.grey-font {
+  color: rgb(68, 67, 67) !important;
+}
+
+.menu-btn {
+  background-color: #f0f6ff !important;
+  color: #1976d2 !important;
+  border-radius: 8px !important;
+  position: relative;
+  font-weight: 600;
+}
+
+.menu-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  bottom: 1px;
+  width: 4px;
+  background-color: #1976d2;
+  border-radius: 4px;
+}
+
+.menu-btn .v-icon {
+  color: #1976d2 !important;
+}
+
+.v-list-item:hover:not(.menu-btn) {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+  border-radius: 8px;
+}
+
+.text-field-one {
+  max-width: 250px !important;
+  background-color: #f3f4f6 !important;
+}
+
+.content-div {
+  background-color: #f3f4f6 !important;
+  height: 100%;
+  width: 100%;
+}
+
+.custom-label .v-field-label {
+  font-size: 13px;
+}
+
+.disable-menu-name {
+  display: none !important;
+}
+
+.custom-menu-icon {
+  position: relative;
+  right: 7px;
+  margin: 0 !important;
+}
+
+.display-flex-coloumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-property {
+  border-radius: 10px !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+.card-property-hover:hover {
+  animation: pop 0.4s ease forwards;
+}
+
+.CursorPointer {
+  cursor: pointer !important;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fontsize10px {
+  font-size: 10px !important;
+}
+.fontsize12px {
+  font-size: 12px !important;
+}
+.fontsize15px {
+  font-size: 15px !important;
+}
+.CardBorderRadius {
+  border-radius: 20px !important;
+}
+.BtnBorderRadius {
+  border-radius: 10px !important;
+}
+
+.BtnHover:hover {
+  background-color: rgba(221, 15, 15, 0.89) !important;
+  border-radius: 8px;
+}
+
+.fontsize8px {
+  font-size: 8px !important;
+}
+.fontsize10px {
+  font-size: 10px !important;
+}
+.fontsize12px {
+  font-size: 12px !important;
+}
+.fontsize15px {
+  font-size: 15px !important;
+}
+.fontsize17px {
+  font-size: 17px !important;
+}
+.fontsize20px {
+  font-size: 20px !important;
+}
+.fontsize25px {
+  font-size: 25px !important;
+}
+.CardBorderRadius {
+  border-radius: 20px !important;
+}
+.BtnBorderRadius {
+  border-radius: 10px !important;
+}
+
+.TableValFontsize td {
+  font-size: 13px !important;
+}
+
+.expansion-panel-one {
+  border-radius: 30px !important;
+  border: 1px solid #e5e7eb !important;
+  background-color: #f3f4f6 !important;
+}
+.text-3xl {
+  font-size: 25px !important;
+  line-height: 2.25rem !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+  color: rgb(15 23 42 ) !important;
+}
+.text-2sm {
+  font-size: .875rem !important;
+  line-height: 1.25rem !important;
+  font-weight: 400 !important;
+  color:#384559 !important;
+  opacity: 1 !important;
+}
+.text-sm {
+  font-size: .775rem !important;
+  line-height: 1.25rem !important;
+  font-weight: 500 !important;
+  color:#384559 !important;
+  opacity: 1 !important;
+}
+.font-mono th{
+  font-size: .875rem;
+  line-height: 1.25rem;
+  background-color: #f3f4f6 !important;
+  font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+}
+.font-mono td{
+  font-size: .875rem !important;
+  line-height: 1.25rem !important;
+}
